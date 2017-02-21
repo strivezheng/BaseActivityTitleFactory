@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "25.0.0"
+
+
+    signingConfigs {
+
+    }
+
+
+    defaultConfig {
+        applicationId "com.xunku.basetest"
+        minSdkVersion 19
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    testCompile 'junit:junit:4.12'
+    //漂亮的progressbar
+    compile 'com.github.castorflex.smoothprogressbar:library-circular:1.2.0'
+    compile project(':xunkubase')
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-beta4'
+    compile project(':bannerlibrary')
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'de.greenrobot:eventbus:3.0.0-beta1'
+    compile 'com.github.chrisbanes.actionbarpulltorefresh:library:0.9.9'
+}
+
+//apply from: 'tinkerpatch.gradle'
+
+
+
+/**-----------------------------------配置结束-----------------------------------*/

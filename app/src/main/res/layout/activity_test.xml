@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xunku.basetest.TestActivity">
+
+
+    <com.xunku.basetest.customView.CustomText
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:text="55555"
+        app:textColor="@color/word_color_black"
+        app:bgColor="@color/app_golden"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <com.xunku.basetest.customView.CircleView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:firstColor="@color/app_golden"
+        app:secondColor="@color/blue"
+        app:circleWidth="20dp"
+        app:speed="1"/>
+
+
+
+</LinearLayout>

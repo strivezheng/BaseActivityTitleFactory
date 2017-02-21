@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg_app">#F2F2F2</color>
+
+    <!-- app的金色背景 -->
+    <color name="app_golden">#a98e67</color>
+    <!-- 底部菜单文字颜色：黑 -->
+    <color name="bottom_menu_word_color">#B6B6B6</color>
+    <!--背景颜色-->
+    <color name="homepage_bg">#F1F1F1</color>
+    <!-- 文字颜色：黑 -->
+    <color name="word_color_black">#333333</color>
+    <!-- 分割线颜色 -->
+    <color name="line_color">#D9D9D9</color>
+    <color name="transparent">#00000000</color>
+    <!-- 整个应用的全局背景色 -->
+    <color name="public_app_bg">@color/base_white</color>
+    <!-- 菜单栏上的文字色，有背景情况下的文字色 				例如：菜单栏的-全部课程，我的课程等 -->
+    <color name="base_white">#ffffff</color>
+    <color name="halfTransparent">#80000000</color>
+    <color name="five_train">#50000000</color>
+    <color name="line_DF">#DFDFDF</color>
+    <!-- APP主色：绿 -->
+    <color name="app_color_green">#3AB775</color>
+    <color name="word_title">#000000</color>
+    <color name="text_deeptxts">#030303</color>
+    <!-- 已学文字颜色：红 -->
+    <color name="study_word_color_red">#FF4B4B</color>
+    <color name="gray_80">#999999</color> <!-- 80%灰色 -->
+    <color name="text_title">#5c6062</color>
+    <color name="common_bg">#FFf4f4f4</color>
+    <color name="cl_maintouch_tabs">#0076FF</color>
+    <color name="phone_kefu">#FF8E04</color>
+    <color name="blue">#0079FF</color>
+    <color name="line_ff">#ffffff</color>
+    <color name="text_detail">#adadad</color>
+    <color name="goods_price">#f5622d</color>
+
+    <color name="green">#ff00ff00 </color>
+    <color name="red">#ffff0000</color>
+
+    <!--我的页面的颜色-->
+    <color name="my_background">#f79745</color>
+    <color name="my_button">#f76f45</color>
+    <color name="my_null">#999999</color>
+    <color name="my_common_blue">#24c789</color>
+    <color name="my_tv_cdcbcf">#cdcbcf</color>#ebf0f2
+    <color name="my_tv_f4f4f4">#f4f4f4</color>
+    <color name="my_tv_e1e1e1">#e1e1e1</color>
+    <color name="my_tv_f5a623">#f5a623</color>
+    <color name="input_word_color">#333333</color>
+    <color name="input_hint_color">#bdbdbd</color>
+    <color name="member_color">#e6ffffff</color>
+
+    <!--主题的状态栏颜色-->
+    <color name="home_top_bg">#cc000000</color>
+
+
+
+    <!--自定义的progressbar颜色-->
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#467BE9</color>
+    <color name="gplus_color_4">#b23425</color>
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+    <color name="page_bg">#eeeeee</color>
+
+
+
+    <!--筛选选中颜色-->
+    <color name="line_eee">#eeeeee</color>
+    <color name="shaixuan_color">#f76f45</color>
+    <color name="login_resiger">#FF9401</color>
+    <color name="recruitment_color_1">#f78711</color>
+    <color name="recruitment_color_2">#787878</color>
+    <color name="recruitment_color_3">#F4F4F4</color>
+    <color name="recruitment_color_4">#979797</color>
+    <color name="recruitment_color_5">#F76F45</color>
+
+
+
+    <!--按钮样式1-->
+    <color name="btn_color1">#24c789</color>
+    <color name="btn_color2">#584f60</color>
+    <color name="tv_in">#dedede</color>
+    <color name="tv_in_sure">#f76f45</color>
+    <color name="cl_back">#F0F0F0</color><!--默认背景 -->
+    <!-- 文字颜色：灰 -->
+    <color name="word_color_gray">#757575</color>
+    <color name="setting_red">#ff2828</color>
+    <color name="bg_duihuang_yes">#ff8e04</color>
+    <color name="my_down_color">#777777</color>
+
+    <color name="bocop_dialog_bg">#77000000</color>
+    <color name="color_transparent">#00000000</color>
+
+    <color name="color_e84515">#e84515</color>
+    <color name="color_d8d8d8">#d8d8d8</color>
+    <color name="color_323232">#323232</color>
+    <color name="province_line_border">#D0D0D0</color>
+
+    <!--天气对应的主题-->
+    <color name="weater_rain">#4d97ed</color>
+    <color name="weater_sun">#f79745</color>
+    <color name="weater_duoyun">#fbb036</color>
+    <color name="weater_ying">#868380</color>
+    <color name="tev_3d">#3d3d3d</color>
+    <color name="tev_f7">#f78711</color>
+    <color name="tev_97">#979797</color>
+    <color name="tev_78">#787878</color>
+    <color name="tev_33">#333333</color>
+    <color name="tev_75">#757575</color>
+
+    <!-- 扫码用 -->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="home_down_color">#E4EEEA</color>
+    <color name="home_down_text_color">#A0A0A1</color>
+
+
+    <color name="community_color_one">#F77148</color>
+    <color name="community_color_two">#3A3A3A</color>
+    <color name="community_color_three">#FEF0ED</color>
+    <color name="community_color_four">#F56302</color>
+    <color name="community_color_five">#FFEAB5</color>
+    <color name="community_color_six">#5f5f5f</color>
+    <color name="community_color_serven">#EB584D</color>
+
+
+</resources>
